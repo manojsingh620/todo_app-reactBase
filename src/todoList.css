@@ -1,0 +1,65 @@
+.main-div{
+    margin: 1rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inp-class{
+    width: 20rem;
+    border: none;
+    height: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 0.4rem;
+}
+
+.inp-btn{
+    border: none;
+    height: 2.8rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 0.4rem;
+}
+
+.inp-btn:hover{
+    cursor: pointer;
+}
+
+.dl-btn{
+    border: none;
+    height: 2rem;
+    margin-left: 0.8rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    cursor: pointer;
+}
+
+.up-btn{
+    border: none;
+    color: black;
+    height: 2rem;
+    width: 3rem;
+    background-color: white;
+    /* margin-left: 0.8rem; */
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+
+.upr-btn{
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.set-like-btn{
+    display: flex;
+}
+
+.set-like-btn li{
+    display: felx;
+    align-items: center;
+}
